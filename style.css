@@ -132,6 +132,92 @@ section h1{
 .text{
 margin-top:-75px;
 }
+/* 3rd section code */
+
+
+#slidersec{
+    padding: 30px;
+    background: #23a8e1;
+    text-align: center;
+    color:#fff;
+}
+
+
+#slidersec p{
+    margin:0 auto;
+    width: 700px;
+    text-align: center;
+}
+.fa-gamepad{
+    display:block;
+    font-size:4em;
+}
+
+.customizer{
+    padding:30px;
+    text-align: left;
+    margin:50px 0px;
+    background: #0698d6b6;
+    border-radius: 3px;
+}
+
+.ctitle{
+    font-size:25px;
+}
+.cSubtitle{
+    display:block;
+    font-size: 14px;
+}
+.crow{
+    display:table;
+    width: 100%;
+}
+.cSlider{
+    border-radius: 5px;
+    width:100%;
+    height: 7px;
+    outline:none;
+    transition:.2s;
+    transition-property: opacity;
+}
+.cSliderMin{
+    text-align: left;
+    padding-left:0;
+    width:20px;
+    float:left;
+}
+
+.cSliderMax{
+    text-align: right;
+    padding-right:0;
+    width:20px;
+    float:right;
+}
+.cSliderContainer{
+    float:left;
+    position: relative;
+    width:calc(100% - 60px);
+}
+.cSliderValue{
+    font-weight: 800;
+    color:rgb(247, 174, 66);
+}
+.cfooter{
+    font-size: 10px;
+}
+.smallPrice{
+    font-size:80%;
+    opacity:0.8;
+    font-weight: normal;
+    float:right;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1000px) {
     #mainheader{

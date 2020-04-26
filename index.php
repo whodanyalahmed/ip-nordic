@@ -17,18 +17,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    $(document).ready(function () {
-      $("#mainheader").slideDown("slow");
-    });
 
-
-    $(document).ready(function () {
-      $("#gaming").click(function () {
-        $('.navigation-megamenu-container').slideDown("slow");
-      });
-    });
-  </script>
   <title>Ipn-Hosting</title>
 </head>
 
@@ -99,34 +88,34 @@
   </div>
   <section>
     <div class="brandlogos">
-    <div class="container">
-    <div class="row">
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/1.png" alt="dell"
-          width="200px" height="100px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/1.png" alt="dell"
+              width="200px" height="100px">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/2.png" alt="hp"
+              width="200px" height="100px">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/3.png" alt="plesk"
+              width="200px" height="100px">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/4.png" alt="samsung"
+              width="200px" height="100px">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/5.png" alt="cisco"
+              width="200px" height="100px">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/6.png" alt="intel"
+              width="200px" height="100px">
+          </div>
+        </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/2.png" alt="hp"
-          width="200px" height="100px">
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/3.png" alt="plesk"
-          width="200px" height="100px">
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/4.png" alt="samsung"
-          width="200px" height="100px">
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/5.png" alt="cisco"
-          width="200px" height="100px">
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/6.png" alt="intel"
-          width="200px" height="100px">
-      </div>
-    </div>
-  </div>
     </div>
     <div class="container">
       <div align="center" class="main-title">
@@ -164,7 +153,8 @@
               </div>
               <h4>Raket Snabba Servrar</h4>
               <p>
-                Samtliga av våra servrar är optimerade för att prestera maximalt i alla lägen, så att alla processer håller måttet.</p>
+                Samtliga av våra servrar är optimerade för att prestera maximalt i alla lägen, så att alla processer
+                håller måttet.</p>
 
             </div>
           </div>
@@ -181,7 +171,8 @@
               </div>
               <h4>Tillgänglig Support</h4>
               <p>
-                Vårt supportteam är tillgängligt alla dagar i veckan och hjälper dig med allt ifrån en fråga till att installera ett program.</p>
+                Vårt supportteam är tillgängligt alla dagar i veckan och hjälper dig med allt ifrån en fråga till att
+                installera ett program.</p>
 
             </div>
           </div>
@@ -198,7 +189,8 @@
               </div>
               <h4>Intel Processorer</h4>
               <p>
-                Intel Processorer är kända för sin prestanda och kvalité, därför har vi valt att köra samtliga av våra servrar med Intel.</p>
+                Intel Processorer är kända för sin prestanda och kvalité, därför har vi valt att köra samtliga av våra
+                servrar med Intel.</p>
 
             </div>
           </div>
@@ -216,7 +208,8 @@
               <h4>
                 Snabba Diskar</h4>
               <p>
-                Slipp all väntetid med gamla slöa hårddiskar. Vi använder bara moderna och snabba diskar så att du inte ska behöver vänta. </p>
+                Slipp all väntetid med gamla slöa hårddiskar. Vi använder bara moderna och snabba diskar så att du inte
+                ska behöver vänta. </p>
 
             </div>
           </div>
@@ -233,7 +226,8 @@
               </div>
               <h4>Modernt Datacenter</h4>
               <p>
-                Samtliga av våra servrar står i ett modern datacenter i Dalarna som är utrustad med PSU & Diesel Backup samt dubbla internetlänkar.</p>
+                Samtliga av våra servrar står i ett modern datacenter i Dalarna som är utrustad med PSU & Diesel Backup
+                samt dubbla internetlänkar.</p>
 
             </div>
           </div>
@@ -250,7 +244,8 @@
               </div>
               <h4>Interaktiv Kundpanel</h4>
               <p>
-                I vår kundpanel har vi samlat allt på ett och samma ställe. Du loggar enkelt in och kommer åt alla dina IP-Nordic tjänster.</p>
+                I vår kundpanel har vi samlat allt på ett och samma ställe. Du loggar enkelt in och kommer åt alla dina
+                IP-Nordic tjänster.</p>
 
             </div>
           </div>
@@ -267,7 +262,8 @@
               </div>
               <h4>1 Gbp/s Internet</h4>
               <p>
-                Vi erbjuder 1Gbp/s internet i alla våra hostingtjänster. Upplev hur ett snabbt och bra internet höjer din hosting.</p>
+                Vi erbjuder 1Gbp/s internet i alla våra hostingtjänster. Upplev hur ett snabbt och bra internet höjer
+                din hosting.</p>
 
             </div>
           </div>
@@ -279,7 +275,89 @@
     </div>
     </div>
   </section>
+  <section id="slidersec">
+    <div class="container">
 
+      <h1>
+        <i class="fa fa-gamepad"></i>
+        Minecraft-palvelin
+      </h1>
+      <p>
+        Voimakkaat pelipalvelimemme pyörivät laadukkaalla raudalla. Tehokkaat Intel® Core™ i9-9900K prosessorit, NVME
+        SSD-levyt ja DDR4-muisti takaavat palveluiden nopeuden
+      </p>
+
+      <h1 id="showcase">Checking</h1>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="customizer ">
+            <span class="ctitle">
+              Title: <span class="cSliderValue"><span id='playerLimitValue'>1</span> Player Limit</span>
+            </span>
+            <span class="cSubtitle">Kuinka monta pelaajapaikkaa tarvitset?</span>
+            <div class="crow" style="margin:0; padding:46px 0;">
+              <span class="cSliderMin">1</span>
+              <div class="cSliderContainer">
+                <input type="range" min="1" max="100" value="16" class="cSlider" id="playerLimit" >
+              </div>
+              <span class="cSliderMax">100</span>
+            </div>
+            <span class="cfooter">Suosittelemme tälle pelaajamäärälle vähintään<span class="cSliderValue"> <span id="playerLimitRamAmount">2</span> GB</span> RAM-muistia.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 col-sm-12">
+          <div class="customizer ">
+            <span class="ctitle">
+              Ram: <span class="cSliderValue"><span id='ramAmountValue'>1</span> Player Limit</span>
+              <span class="smallPrice white float">(+<span id="ramPrice">7.50</span>€/kk)</span>
+            </span>
+            <span class="cSubtitle">Kuinka monta pelaajapaikkaa tarvitset?</span>
+            <div class="crow" style="margin:0; padding:46px 0;">
+              <span class="cSliderMin">1</span>
+              <div class="cSliderContainer">
+                <input type="range" min="1" max="100" value="1" class="cSlider" id="playerLimit">
+              </div>
+              <span class="cSliderMax">100</span>
+            </div>
+            <span class="cfooter">Jos asennat palvelimelle lisäosia tai käsittelet suuria karttoja, tarvitset enemmän välimuistia.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+<script>
+  // $(document).ready(
+  //     function()
+  //     {
+  //         var d = document.getElementById("playerLimit").value;
+  //         document.getElementById("showcase").innerText = d;
+  //         console.log(d)
+  //     });
+          var slider = document.getElementById("playerLimit");
+          var value = document.getElementById("showcase");
+          var player = document.getElementById("playerLimitValue");
+          var ram = document.getElementById("playerLimitRamAmount");
+          value.innerText = slider.value;
+          player.innerText = slider.value;
 
+          var ramint = parseInt(ram.innerText);
+            slider.oninput = function(){
+            console.log(ramint)
+
+            var start = 25;
+
+            for (start;start<100;start+=10){
+            if(this.value < start){
+              document.getElementById("playerLimitRamAmount").innerText = ramint;
+            }
+            else{
+              document.getElementById("playerLimitRamAmount").innerText = ramint+1;
+            }
+            }
+            value.innerText = this.value;
+            player.innerText = this.value;
+          }
+    </script>
 </html>
