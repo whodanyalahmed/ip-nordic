@@ -286,8 +286,6 @@
         Voimakkaat pelipalvelimemme pyörivät laadukkaalla raudalla. Tehokkaat Intel® Core™ i9-9900K prosessorit, NVME
         SSD-levyt ja DDR4-muisti takaavat palveluiden nopeuden
       </p>
-
-      <h1 id="showcase">Checking</h1>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
           <div class="customizer ">
@@ -298,7 +296,7 @@
             <div class="crow" style="margin:0; padding:46px 0;">
               <span class="cSliderMin">1</span>
               <div class="cSliderContainer">
-                <input type="range" min="1" max="100" value="16" class="cSlider" id="playerLimit" >
+                <input type="range" min="1" max="100" value="1" class="cSlider" id="playerLimit" >
               </div>
               <span class="cSliderMax">100</span>
             </div>
@@ -309,16 +307,16 @@
         <div class="col-lg-6 col-sm-12">
           <div class="customizer ">
             <span class="ctitle">
-              Ram: <span class="cSliderValue"><span id='ramAmountValue'>1</span> Player Limit</span>
-              <span class="smallPrice white float">(+<span id="ramPrice">7.50</span>€/kk)</span>
+              Ram: <span class="cSliderValue"><span id='ramAmountValue'>1</span> GB</span>
+              <span class="smallPrice white float">(+<span id="ramPrice">5.00</span>€/kk)</span>
             </span>
             <span class="cSubtitle">Kuinka monta pelaajapaikkaa tarvitset?</span>
             <div class="crow" style="margin:0; padding:46px 0;">
               <span class="cSliderMin">1</span>
               <div class="cSliderContainer">
-                <input type="range" min="1" max="100" value="1" class="cSlider" id="playerLimit">
+                <input type="range" min="1" max="10" value="1" class="cSlider" id="ramAmount">
               </div>
-              <span class="cSliderMax">100</span>
+              <span class="cSliderMax">10</span>
             </div>
             <span class="cfooter">Jos asennat palvelimelle lisäosia tai käsittelet suuria karttoja, tarvitset enemmän välimuistia.</span>
           </div>
@@ -327,37 +325,5 @@
     </div>
   </section>
 </body>
-<script>
-  // $(document).ready(
-  //     function()
-  //     {
-  //         var d = document.getElementById("playerLimit").value;
-  //         document.getElementById("showcase").innerText = d;
-  //         console.log(d)
-  //     });
-          var slider = document.getElementById("playerLimit");
-          var value = document.getElementById("showcase");
-          var player = document.getElementById("playerLimitValue");
-          var ram = document.getElementById("playerLimitRamAmount");
-          value.innerText = slider.value;
-          player.innerText = slider.value;
-
-          var ramint = parseInt(ram.innerText);
-            slider.oninput = function(){
-            console.log(ramint)
-
-            var start = 25;
-
-            for (start;start<100;start+=10){
-            if(this.value < start){
-              document.getElementById("playerLimitRamAmount").innerText = ramint;
-            }
-            else{
-              document.getElementById("playerLimitRamAmount").innerText = ramint+1;
-            }
-            }
-            value.innerText = this.value;
-            player.innerText = this.value;
-          }
-    </script>
+<script src="slider.js"></script>
 </html>
