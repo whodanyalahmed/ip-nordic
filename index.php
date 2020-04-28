@@ -86,7 +86,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <section>
+  <section class="section">
     <div class="brandlogos">
       <div class="container">
         <div class="row">
@@ -126,7 +126,7 @@
           Vi satsar på hög prestanda, kvalité och ge den bästa kundservicen
         </p>
       </div>
-      <div class="row">
+      <div class="row" style="padding: 30px;">
         <div class="col-lg-3 col-sm-6">
           <div class="text-container">
             <div class="text">
@@ -268,9 +268,9 @@
             </div>
           </div>
           <div>
-
           </div>
         </div>
+        <button style="margin:20px auto;" align="center" class="btn btn-success"><i class="fas fa-file-invoice"></i> Learn more</button>
       </div>
     </div>
     </div>
@@ -321,9 +321,67 @@
             <span class="cfooter">Jos asennat palvelimelle lisäosia tai käsittelet suuria karttoja, tarvitset enemmän välimuistia.</span>
           </div>
         </div>
+
+
+        <div class="col-lg-6 col-sm-12">
+          <div class="customizer ">
+            <span class="ctitle">
+              Levytila: <span class="cSliderValue"><span id='diskValue'>10</span> GB</span>
+              <span class="smallPrice white float">(+<span id="diskPrice">0</span>€/kk)</span>
+            </span>
+            <span class="cSubtitle">Kuinka paljon tarvitset levytilaa?</span>
+            <div class="crow" style="margin:0; padding:46px 0;">
+              <span class="cSliderMin">10</span>
+              <div class="cSliderContainer">
+                <input type="range" min="10" max="50" value="1" step="10" class="cSlider" id="diskSpace">
+              </div>
+              <span class="cSliderMax">50</span>
+            </div>
+            <span class="cfooter">Kartat ja lisäosat vievät levytilaa. Tarvittaessa saat tästä sitä lisää!</span>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-6 col-sm-12">
+          <div class="ctotal">
+            <span class="ctitle">
+              Total:
+            </span>
+            <span class="items">
+              <ul>
+                <li>Ram: <span class="cSliderValue"><span id='ramValue'>10</span> GB</span></li>
+                <li>Disk: <span class="cSliderValue"><span id='diskValue'>10</span> TB</span></li>
+                <li>SSD: <span class="cSliderValue"><span id='diskValue'>500</span> GB</span></li>
+              </ul>
+              <hr>
+              <input type="submit" class="btn btn-success" id="buynow" style="float: left;margin-top:-10px;" value="buy now" />
+              <span class="totalPrice white float"><span id="diskPrice">100.00</span>€/kk</span>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+  <section id="Applynow">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <img class="img-responsive" src="images/applynow.png" align="left" alt="applynow" height="250px " width="250px">
+        </div>
+      <div class="col-lg-6 col-sm-12">
+      <h1>LOOKING TO BECOME A PARTNER?</h1>
+      <p>We're looking to partner with businesses, social media influencer's, streamers, and communities.</p>
+      <button id="buynow">Apply now</button>
+    </div>
+
+  </div>
+  </div>
+  </section>
+<?php
+  require_once("footer.php");
+
+?>
 </body>
 <script src="slider.js"></script>
 </html>

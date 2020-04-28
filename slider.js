@@ -9,6 +9,7 @@ var ramslider = document.getElementById("ramAmount");
 var slider = document.getElementById("playerLimit");
 var player = document.getElementById("playerLimitValue");
 var ram = document.getElementById("playerLimitRamAmount");
+var diskslider = document.getElementById("diskSpace");
 
 player.innerText = slider.value;
 
@@ -159,3 +160,38 @@ ramslider.oninput = function () {
   }
 }
 
+
+diskslider.oninput = function () {
+  if(this.value == 10){
+    document.getElementById("diskValue").innerHTML = 10;
+    
+    document.getElementById("diskPrice").innerText = 0;
+    
+  }
+  else if (this.value == 20) {
+    document.getElementById("diskValue").innerHTML = 20;
+    
+    document.getElementById("diskPrice").innerText = 2.50;
+  }
+  else if (this.value == 300) {
+    
+    document.getElementById("diskValue").innerHTML = 30;
+
+
+    document.getElementById("diskPrice").innerText = 5.00;
+  }
+  else if (this.value== 40) {
+    
+    document.getElementById("diskValue").innerHTML = 40;
+
+
+    document.getElementById("diskPrice").innerText = 7.50;
+  }
+  else {
+    document.getElementById("diskValue").innerHTML = 50;
+    
+
+    document.getElementById("diskPrice").innerText = 10.00;
+
+  }
+}
