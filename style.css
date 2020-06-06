@@ -45,6 +45,7 @@ p{
 .btn-success{
     background: #23a8e1 !important;
     outline:none;
+    border:none;
 }
 .btn-success:hover,.btn-success:focus,.btn-success:active{
     background: #008bc7d5 !important;
@@ -350,7 +351,9 @@ footer ul li{
 #lowerfooter .row span{
     margin:0 auto;
 }
-
+.socials  .fab{
+    font-size:20px;
+}
 @media only screen and (max-width: 1000px) {
     #mainheader{
         position: absolute;
@@ -385,4 +388,14 @@ margin-top:200px;
     .footer{
 margin-top:250px;
     }
+}
+
+
+/* Thank you page */
+#back a:hover{
+    color:rgb(247, 174, 66);
+    text-decoration: none;
+    opacity: 0.6;
+    padding-left: 3px;
+    transition: 0.5s ease-in-out;
 }

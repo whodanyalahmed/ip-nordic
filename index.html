@@ -22,9 +22,66 @@
 </head>
 
 <body>
-  <?php 
-    require_once('nav.php');
-    ?>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <div class="container">
+  <strong class="container"> &nbsp;Dummy Website!</strong><br> &nbsp;&nbsp;&nbsp;&nbsp;All functionalities and button may not work because its a dummy web for assginment purpose.<br> &nbsp;&nbsp;&nbsp;&nbsp;So click all buttons to check functionalities 😛 .
+</div>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<!-- Nav starts here -->
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/ipn-trans.png" alt="ipn logo" height="40" width="150"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+
+              <div class="dropdown">
+            <a class="nav-link" href="#" id="gaming" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gaming Hosting <i class="fa fa-angle-down"></i> <span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Minecraft</a>
+              <a class="dropdown-item" href="#">PUBG</a>
+              <a class="dropdown-item" href="#">Fornite</a>
+            </div>
+          </div>
+            <div class="navigation-megamenu-container">
+              <div class="navigation-row">
+                <div class="navigation-col">
+                  <a href="https://pngimage.net/rust-png-logo-3/" title="Image from PNG Image"><img src="https://pngimage.net/wp-content/uploads/2018/06/rust-png-logo-3.png" alt="rust png logo 3"></a>
+                  <h2>Rust</h2>
+                </div>
+              </div>
+            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">VPS Hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dedicated Hosting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Web Hosting</a>
+              </li>
+          </ul>
+          <span class="navbar-text">
+            
+            <a href="login.html" title="sign in"><i class="fas fa-sign-in-alt"></i></a>
+            <a href="#" title="account"><i class="far fa-user pl-3"></i></a>
+          </span>
+
+        </div>
+      </nav>
+      <hr>
+</div>
+<!-- Nav end here -->
   <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
     <!-- <ol class="carousel-indicators">
       <li data-target="#carousel" data-slide-to="0" class="active">text1</li>
@@ -107,8 +164,8 @@
               width="200px" height="100px">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/5.png" alt="cisco"
-              width="200px" height="100px">
+            <img class="img-responsive" src="images/cisco.png" alt="cisco"
+               style=" margin-left:50px;margin-top:10px;"width="140px" height="70px">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
             <img class="img-responsive" src="https://ip-nordic.se/images/partners/footer-partners/6.png" alt="intel"
@@ -355,7 +412,7 @@
                 <li>SSD: <span class="cSliderValue"><span id='diskValue'>500</span> GB</span></li>
               </ul>
               <hr>
-              <input type="submit" class="btn btn-success" id="buynow" style="float: left;margin-top:-10px;" value="buy now" />
+              <a href="buynow.html" class="btn btn-success" id="buynow" style="float: left;margin-top:-10px;">buy now</a>
               <span class="totalPrice white float"><span id="diskPrice">100.00</span>€/kk</span>
             </span>
           </div>
@@ -372,16 +429,172 @@
       <div class="col-lg-6 col-sm-12">
       <h1>LOOKING TO BECOME A PARTNER?</h1>
       <p>We're looking to partner with businesses, social media influencer's, streamers, and communities.</p>
-      <button id="buynow">Apply now</button>
+      <a href="aboutus.html" id="buynow">Apply now</a>
     </div>
 
   </div>
   </div>
   </section>
-<?php
-  require_once("footer.php");
+  <footer class="footer">
+    <div class="container">
+        <div class="row" id="footerrow">
+            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                <div class="widget widget_links">
+                    <h5 class="widget-title">
+                        Game Hosting
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="minecraft-hosting">
+                                Minecraft Hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gmod-hosting">
+                                Garry's Mod Hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="rust-hosting">
+                                Rust Hosting
+                            </a></li><a href="rust-hosting">
+                        </a>
+                        <li><a href="rust-hosting">
+                            </a><a href="game-hosting">
+                                View All Games
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                <div class="widget widget_links">
+                    <h5 class="widget-title">
+                        Other Hosting
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="vps-hosting">
+                                VPS Hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dedicated-hosting">
+                                Dedicated Hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="web-hosting">
+                                Web Hosting
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                <div class="widget widget_links">
+                    <h5 class="widget-title">
+                        Company
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="about-us">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="jobs">
+                                Jobs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="partners">
+                                Partners
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/status/">
+                                Status
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ddos-protection">
+                                DDoS Protection
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                <div class="widget widget_links">
+                    <h5 class="widget-title">
+                        Important
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="terms-of-service">
+                                Terms of Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="service-level-agreement">
+                                Service-Level Agreement
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-0 mb-lg-0">
+                <div class="widget w-info">
+                    <a href="/" class="site-logo">
+                        <img src="images/ipn-trans.png" alt="logo" width="200">
+                    </a>
+                    <p>Simplified server hosting, at any scale.</p>
+                    <ul class="socials">
+                        <li>
+                            <a href="#" class="footer-social-links facebook">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-social-links">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-social-links">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-social-links">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-?>
+    </div>
+    </div>
+    <div id="lowerfooter">
+        <div class="container">
+            <div class="row">
+                <span>&copy; Copyright and All rights reserved by <i class="compname">IP-nordic</i>. </span>
+            </div>
+        </div>
+</footer>
 </body>
 <script src="slider.js"></script>
 </html>
